@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Poppins:wght@500&display=swap');
+
+:root{
+    --main-color: rgb(237,70,48);
+    --text-color: rgb(10,23,52);
+    --bg-color: #fff;
+    --dark-color: rgb(25,25,24);
+
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
