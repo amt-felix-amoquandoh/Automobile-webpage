@@ -47,6 +47,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 35px;
+    text-decoration: none;
 }
 
 .menuIcon{
@@ -60,4 +61,8 @@ header{
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--text-color);
+}
+
+.navLogo span{
+    color: var(--main-color);
 }
