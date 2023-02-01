@@ -55,3 +55,9 @@ header{
     color: var(--text-color);
     display: none;
 }
+
+.navLogo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
