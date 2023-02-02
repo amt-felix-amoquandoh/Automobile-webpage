@@ -42,12 +42,15 @@ header{
     z-index: 100;
 }
 
+header a{
+    text-decoration: none;
+}
+
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 35px;
-    text-decoration: none;
 }
 
 .menuIcon{
@@ -65,4 +68,46 @@ header{
 
 .navLogo span{
     color: var(--main-color);
+}
+
+.navBarUl{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.navBarUl a{
+    color: var(--text-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navBarUl a:hover, .navBarUl .active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);    
+}
+
+.searchBox{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background: var(--bg-color);
+    box-shadow: 4px 4px 20px grey;
+    border: 1px solid var(--main-color);
+    border-radius: 0.5rem;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.searchBox.active{
+    clip-path: circle(144% at 100% 0%);
+}
+
+.searchBox input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
 }
